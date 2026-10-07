@@ -23,7 +23,7 @@ h1,h2,h3,.disp{font-family:Outfit,sans-serif;font-weight:400;letter-spacing:-.01
 .bul li{position:relative;padding-left:16px;margin-bottom:12px;font-size:18px;line-height:24px}
 .bul li:before{content:"";position:absolute;left:0;top:9px;border-left:8px solid #4da3f5;border-top:4px solid transparent;border-bottom:4px solid transparent;transform:rotate(-30deg)}
 .card{background:#fff;border-radius:16px;border:1px solid #ececf5}
-.pill{display:inline-block;font-size:15px;padding:3px 10px;border-radius:999px;border:1px solid #9d8cf8;color:#7b61f5;background:#f1eefe}
+.pill{display:inline-flex;align-items:center;align-self:flex-start;white-space:nowrap;height:30px;line-height:1;font-size:15px;padding:0 12px;border-radius:999px;box-sizing:border-box;border:1px solid #9d8cf8;color:#7b61f5;background:#f1eefe}
 .pill.g{border-color:#7fdcc8;color:#38c3a4;background:#effbf8}
 .light .text-violet,.light .pill{color:#5a3fd6}
 .light b{color:#5a3fd6}
@@ -63,7 +63,7 @@ label b{color:#7b61f5;font-weight:400}
 <section class="light relative overflow-hidden" style="height:655px;background-image:linear-gradient(#f3f3f9 1px,transparent 1px),linear-gradient(90deg,#f3f3f9 1px,transparent 1px);background-size:119px 119px;background-color:#fff">
   <div class="wrap relative h-full">
     <div class="absolute left-[70px] top-[76px] w-[640px]">
-      <span class="inline-block border border-sky text-sky rounded-full px-5 py-[7px] text-[15px] tracking-wide uppercase">UK-led software teams</span>
+      <span class="inline-flex items-center h-[36px] whitespace-nowrap border border-sky text-sky rounded-full px-5 text-[15px] leading-none tracking-wide uppercase">UK-led software teams</span>
       <h1 class="text-[84px] leading-[94px] mt-[26px] font-display">Build with confidence.</h1>
       <p class="text-[24px] leading-[29px] mt-[16px] font-light">Offshorly delivers dedicated, AI-enabled software teams for businesses that want long-term delivery partners — not just developers for hire.</p>
       <div class="flex gap-4 mt-[26px]">
@@ -134,7 +134,7 @@ label b{color:#7b61f5;font-weight:400}
           <div class="bg-mist rounded-[10px] h-[145px] flex items-center gap-[24px] px-[24px]"><div class="w-[60px] h-[56px] border-2 border-ink rounded-sm shrink-0"></div><div><div class="text-[19px] font-medium">Get more out of what you have</div><p class="text-[19px] leading-[24px] mt-[6px]">We extend your existing tools with AI — adding workflows, automations, and integrations your SaaS provider won't build for you.</p></div></div>
           <div class="bg-mist rounded-[10px] h-[145px] flex items-center gap-[24px] px-[24px]"><div class="w-[60px] h-[56px] border-2 border-ink rounded-sm shrink-0"></div><div><div class="text-[19px] font-medium">Ask your data anything</div><p class="text-[19px] leading-[24px] mt-[6px]">We layer AI on top of your existing data so your team can query, report, and act — in plain English, no dashboards needed.</p></div></div>
         </div>
-        <div class="inline-block mt-[20px] border border-mint rounded-full bg-[#effbf8] text-[15px] px-[18px] py-[7px]">100% custom · No lock-in · No dependencies. Ever. ✨</div></div>
+        <div class="inline-flex items-center h-[36px] whitespace-nowrap mt-[20px] border border-mint rounded-full bg-[#effbf8] text-[15px] leading-none px-[18px]">100% custom · No lock-in · No dependencies. Ever. ✨</div></div>
     </div>
   </div>
 </section>
