@@ -193,3 +193,4 @@ footer{padding:var(--s6) 0 var(--s4);border-top:1px solid rgba(233,239,235,.12)}
 .nav ul a[aria-current]{border-color:var(--gold);opacity:1}
 .journal .quick{margin-bottom:var(--s5)}
 @media(max-width:900px){.page-head{padding-top:calc(var(--s5) + 60px)}.cards.one{grid-template-columns:1fr}}
+.post p{color:var(--mist-dim);margin-top:var(--s2);max-width:46ch}
