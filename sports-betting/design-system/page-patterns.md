@@ -1,0 +1,4 @@
+# Page patterns
+Main pages use: wrap (1360px) > two-column shell (content + 320px sticky slip) below hero + ticker. Section = sec-head (h2 + .sub, optional right badge) then content. Lists are one bordered .list with ruled rows, not separate cards. Hero/RG are full-bleed bands; everything else sits in the shell.
+For new pages (live events, sports listing, event details, account, RG settings): keep header, slip column and footer; compose the main column from the patterns above, choosing layout from the page's purpose. Do not copy the homepage section order. Event details = .mkt market panel as primary + stats panels. Account/RG pages drop the slip column.
+Content rules: copy from the brief only; simulated labels on any score/odds; promos always show eligibility + terms; stats split Verified vs Opinion.
